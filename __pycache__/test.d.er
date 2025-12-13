@@ -1,0 +1,32 @@
+##[pylyzer] failed /home/h4r15h/my-backup/projects/async/passive_recon/test.py 1756185946 918
+.json: Never
+
+.___v_desugar_1 = pyimport "wayback"
+.wayback = pyimport "wayback"
+.way_back_assets: Never
+
+.data: Never
+
+.raw_files: global::List!(global::Indexable(Obj, Structural({.endswith = (self: Never, Obj) -> Never and (self: Never, Obj) -> Structural({.__or__ = (self: Never, Obj) -> Bool})})), 0)
+.processed_files: global::List!(Structural({.endswith = (self: Never, Obj) -> Never and (self: Never, Obj) -> Structural({.__or__ = (self: Never, Obj) -> Bool})}), 0)
+
+
+
+
+
+
+
+
+.result: global::List!(Structural({.endswith = (self: Never, Obj) -> Never and (self: Never, Obj) -> Structural({.__or__ = (self: Never, Obj) -> Bool})}), 0)
+
+
+
+
+
+
+
+
+
+
+
+

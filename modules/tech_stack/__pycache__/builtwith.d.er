@@ -1,0 +1,6 @@
+##[pylyzer] failed /home/h4r15h/my-backup/projects/async/passive_recon/modules/tech_stack/builtwith.py 1755277747 288
+.___v_desugar_1: Never
+.return_apikeys: Never
+.builtwithapikey: Never
+
+.get_the_sample: () -> NoneType

@@ -1,0 +1,204 @@
+{
+    "Results": [
+        {
+            "Result": {
+                "SpendHistory": [],
+                "IsDB": "False",
+                "Spend": 0,
+                "Paths": [
+                    {
+                        "Technologies": [
+                            {
+                                "Name": "HTML5 DocType",
+                                "Description": "The DOCTYPE is a required preamble for HTML5 websites.",
+                                "Link": "https://www.w3.org/TR/html51/",
+                                "Tag": "docinfo",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "UTF-8",
+                                "Description": "UTF-8 (8-bit UCS/Unicode Transformation Format) is a variable-length character encoding for Unicode. It is the preferred encoding for web pages.",
+                                "Link": "https://en.wikipedia.org/wiki/UTF-8",
+                                "Tag": "encoding",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Viewport Meta",
+                                "Description": "This page uses the viewport meta tag which means the content may be optimized for mobile content.",
+                                "Link": "https://developers.google.com/speed/docs/insights/ConfigureViewport",
+                                "Tag": "mobile",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "IPhone / Mobile Compatible",
+                                "Description": "The website contains code that allows the page to support IPhone / Mobile Content.",
+                                "Link": "https://apple.com",
+                                "Tag": "mobile",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "SEO_TITLE",
+                                "Description": "SEO Title",
+                                "Link": "",
+                                "Tag": "seo_title",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Categories": [
+                                    "Fonts"
+                                ],
+                                "Name": "Google Font API",
+                                "Description": "The Google Font API helps you add web fonts to any web page.",
+                                "Link": "https://fonts.google.com",
+                                "Tag": "widgets",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "JavaScript Modules",
+                                "Description": "Modern browsers now support native module functionality, optimizing loading and efficiency. Import and export statements are key for using native JavaScript modules.",
+                                "Link": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules",
+                                "Tag": "javascript",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Cascading Style Sheets",
+                                "Description": "Cascading Style Sheets (CSS) is a stylesheet language used to describe the presentation of a document written in a markup language. Its most common application is to style web pages written in HTML ",
+                                "Link": "https://en.wikipedia.org/wiki/Cascading_Style_Sheets",
+                                "Tag": "docinfo",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "jsDelivr",
+                                "Description": "A free CDN where Javascript developers can host their files. Encompasses MaxCDN, and BootstrapCDN.",
+                                "Link": "https://www.jsdelivr.com/",
+                                "Tag": "cdn",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Twitter Bootstrap",
+                                "Description": "Bootstrap is a toolkit from Twitter designed to kickstart development of webapps and sites.",
+                                "Link": "https://getbootstrap.com",
+                                "Tag": "docinfo",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Sub Resource Integrity",
+                                "Description": "SRI is a W3C specification that allows web developers to ensure that resources hosted on third-party servers have not been tampered with.",
+                                "Link": "https://www.w3.org/TR/SRI/",
+                                "Tag": "docinfo",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "Strict Transport Security",
+                                "Description": "The HTTP Strict-Transport-Security (HSTS) header instructs the browser to only use https.",
+                                "Link": "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security",
+                                "Tag": "docinfo",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Name": "HSTS",
+                                "Description": "Forces browsers to only communicate with the site using HTTPS.",
+                                "Link": "https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security",
+                                "Tag": "ssl",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            },
+                            {
+                                "Categories": [
+                                    "Cloud Hosting",
+                                    "Cloud PaaS",
+                                    "French hosting"
+                                ],
+                                "Name": "Netlify",
+                                "Description": "Netlify is a platform that automates your code to create web sites.",
+                                "Link": "https://www.netlify.com/",
+                                "Tag": "hosting",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "yes"
+                            },
+                            {
+                                "Name": "Content Delivery Network",
+                                "Description": "This page contains links that give the impression that some of the site contents are stored on a content delivery network.",
+                                "Link": "https://en.wikipedia.org/wiki/Content_Delivery_Network",
+                                "Tag": "CDN",
+                                "FirstDetected": 1755300989749,
+                                "LastDetected": 1755300989749,
+                                "IsPremium": "no"
+                            }
+                        ],
+                        "FirstIndexed": 1755300989749,
+                        "LastIndexed": 0,
+                        "Domain": "binarymisfits.in.net",
+                        "Url": "",
+                        "SubDomain": "binarymisfits.in.net"
+                    }
+                ]
+            },
+            "Meta": {
+                "Majestic": 0,
+                "Umbrella": 0,
+                "Vertical": "",
+                "Social": null,
+                "CompanyName": "",
+                "Telephones": null,
+                "Emails": [],
+                "City": null,
+                "State": null,
+                "Postcode": null,
+                "Country": null,
+                "Names": null,
+                "ARank": 0,
+                "QRank": 0
+            },
+            "Attributes": {
+                "Employees": 0,
+                "MJRank": 0,
+                "MJTLDRank": 0,
+                "RefSN": 0,
+                "RefIP": 0,
+                "Followers": 0,
+                "Sitemap": 0,
+                "GTMTags": 0,
+                "QubitTags": 0,
+                "TealiumTags": 0,
+                "AdobeTags": 0,
+                "CDimensions": 0,
+                "CGoals": 0,
+                "CMetrics": 0,
+                "ProductCount": 0
+            },
+            "FirstIndexed": 1755300989749,
+            "LastIndexed": 0,
+            "Lookup": "binarymisfits.in.net",
+            "SalesRevenue": 0
+        }
+    ],
+    "Errors": [],
+    "Trust": null
+}

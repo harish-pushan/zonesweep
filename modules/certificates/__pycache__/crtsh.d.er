@@ -1,0 +1,13 @@
+##[pylyzer] failed /home/h4r15h/my-backup/projects/async/passive_recon/modules/certificates/crtsh.py 1754988220 904
+.requests: Never
+
+.json: Never
+
+.requests_cert_from_crtsh: Never
+
+: Obj) -> global::Tuple([global::List!(global::Tuple([{"issuer_name"}, Never]), _: Nat), global::List!(global::Tuple([{"name_value"}, Never]), _: Nat)])
+.___v_global_45597: global::Tuple([global::List!(global::Tuple([{"issuer_name"}, Never]), _: Nat), global::List!(global::Tuple([{"issuer_name"}, Never]), _: Nat)])
+.issue_name: global::List!(global::Tuple([{"issuer_name"}, Never]), _: Nat)
+.name_value: global::List!(global::Tuple([{"issuer_name"}, Never]), _: Nat)
+
+
