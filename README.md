@@ -37,22 +37,26 @@ Zonesweep supports modular, passive reconnaissance using individual or combined 
 ---
 
 ## 📁 Project Structure
+## Project Structure
+
+```text
 .
 ├── modules
-│ ├── apikeys
-│ ├── certificates
-│ │ └── crtsh
-│ ├── dns_info
-│ │ └── securitytrails
-│ ├── ip_info
-│ │ └── censys
-│ ├── sub_domains
-│ ├── urlscan
-│ ├── wayback
-│ └── output
-│ └── json_output
+│   ├── apikeys
+│   ├── certificates
+│   │   └── crtsh
+│   ├── dns_info
+│   │   └── securitytrails
+│   ├── ip_info
+│   │   └── censys
+│   ├── sub_domains
+│   ├── urlscan
+│   ├── wayback
+│   └── output
+│       └── json_output
 ├── main.py
 └── README.md
+```
 
 
 ---
