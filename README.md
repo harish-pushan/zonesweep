@@ -63,7 +63,7 @@ Zonesweep supports modular, passive reconnaissance using individual or combined 
 git clone https://github.com/yourusername/zonesweep.git
 cd zonesweep
 pip install -r requirements.txt
-
+```
 --- 
 
 🔑 API Keys Configuration
