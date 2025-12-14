@@ -18,4 +18,4 @@ def get_subdomains_from_shodan(url):
 
 
     except shodan.APIError as e:
-        return f"Error: {e}"
+        return ["Error:", {e}]

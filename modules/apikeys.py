@@ -1,16 +1,20 @@
+import os 
+from dotenv import load_dotenv, find_dotenv
+from pathlib import Path
+load_dotenv(Path(".env"))
 
 def return_apikeys(api_key=None):
 
     API_KEYS = {
-        "security_trails": "YOURAPI",
-        "virustotal": "YOURAPI",
-        "shodan": "YOURAPI",
-        "builtwith": "YOURAPI",
-        "way_back_access": "YOURAPI",
-        "way_back_secret": "YOURAPI",
-        "urlscan": "YOURAPI",
-        "alienvault": "YOURAPI",
-        "censys": "YOURSPI"
+        "security_trails": os.getenv("security_trails"),
+        "virustotal": os.getenv('virustotal'),
+        "shodan": os.getenv('shodan'),
+        "builtwith": os.getenv('builtwith'),
+        "way_back_access": os.getenv('way_back_access'),
+        "way_back_secret": os.getenv('way_back_secret'),
+        "urlscan": os.getenv('urlscan'),
+        "alienvault": os.getenv('alienvault'),
+        "censys": os.getenv('censys')
     }
 
     # Case 1: No key provided -> print all
