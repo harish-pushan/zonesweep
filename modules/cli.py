@@ -9,9 +9,9 @@ from modules.dns_info.securitytrails import dns_info_security_trails
 #Ip info 
 from modules.ip_info.censys import return_ip_info_censys
 
-# #Buildwithinfo 
-# took it out because ran out of credits
-# from modules.tech_stack.builtwith import BuiltWithInfo
+#Buildwithinfo 
+
+from modules.tech_stack.builtwith import BuiltWithInfo
 
 #Wayback info 
 from modules.wayback.wayback import way_back_assets
@@ -42,6 +42,8 @@ def prease_arguments():
     praser.add_argument("--ipinfo",action='store_true', help="IP Info switch")
 
     praser.add_argument("--githubleaks", action='store_true',help="Github leaks enumation switch")
+
+    praser.add_argument("--techstack", action='store_true',help="Tech stack enumation switch")
 
     praser.add_argument("--urlscan", action='store_true',help="Urlscan enumation switch")
 
@@ -76,6 +78,9 @@ def process_arguments():
             exit()
         if key == "subsonly" and value == True:
             get_all_subdomains(url)
+            exit()
+        if key == "techstack" and value == True:
+            BuiltWithInfo(url)
             exit()
         if key == "dnsinfo" and value == True:
             dns_info_security_trails(url)
