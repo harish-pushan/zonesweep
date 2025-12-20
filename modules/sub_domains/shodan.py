@@ -1,7 +1,6 @@
 import shodan
 from modules.apikeys import return_apikeys
-from modules.sub_domains.securitytrails import change_the_url
-
+from modules.utils import change_the_url
 
 def get_subdomains_from_shodan(url):
     url = change_the_url(url)

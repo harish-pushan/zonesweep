@@ -1,6 +1,5 @@
 from modules.apikeys import return_apikeys
-from modules.sub_domains.securitytrails import change_the_url
-
+from modules.utils import change_the_url
 
 import requests
 

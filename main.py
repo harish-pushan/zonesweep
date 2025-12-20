@@ -6,7 +6,6 @@ from modules.apikeys import return_apikeys
 import json
 def main():
     process_arguments()
-    
 
 if __name__ == "__main__":
     main()

@@ -6,13 +6,8 @@ import re
 import requests
 
 from modules.apikeys import return_apikeys 
+from modules.utils import change_the_url
 
-def change_the_url(url):
-    if url[:8] == "https://":
-        url = url[8:]
-    elif url[:7] == "http://":
-        url = url[7:]
-    return url
 def get_subdomains_from_security_trails(url):
     url = change_the_url(url)
         
