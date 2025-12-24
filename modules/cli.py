@@ -22,6 +22,8 @@ from modules.urlscan.urlscan import get_result_with_uuid_UrlScan
 #Subdomains
 from modules.sub_domains.concat_everything import get_all_subdomains
 
+#Certificate 
+from modules.certificates.crtsh import requests_cert_from_crtsh
 
 #Api
 from modules.apikeys import return_apikeys
@@ -96,6 +98,9 @@ def process_arguments():
             exit()
         if key == "all" and value == True:
             get_all_the_api_output(url)
+            exit()
+        if key == "certs" and value == True:
+            requests_cert_from_crtsh(url)
             exit()
 
         

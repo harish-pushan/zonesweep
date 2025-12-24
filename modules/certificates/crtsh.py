@@ -1,27 +1,31 @@
 #!/bin/python3
-
+import json 
 
 import requests
+from modules.utils import change_the_url
 
 
 def requests_cert_from_crtsh(domain):
-    
+    domain = change_the_url(domain)
     try:
-        raw_resopnse = requests.get(f'https://crt.sh/?q={domain}&output=json')
+        raw_resopnse = requests.get(f'https://crt.sh/json?q={domain}')
         if raw_resopnse.status_code == 502:
             print("Server side error with crt.sh can't get any certificates")
+            print(raw_resopnse.json())
+            
         response = raw_resopnse.json()
-
-        raw_items = []
         for i in response:
-            for j in i:
-                raw_items.append(('issuer_name', j['issuer_name']))
-                raw_items.append(('name_value', j['name_value']))
-        final_items = list(set(raw_items))
+            if  i.get('issuer_ca_id') and i.get('issuer_name') and i.get('common_name') and i.get('entry_timestamp') and i.get('not_before') and i.get('not_after'):
+                print(f"Issuer ID\t:{i.get('issuer_ca_id')}")
+                print(f"Issuer Name\t:{i.get('issuer_name')}")
+                print(f"Comman Name\t:{i.get('common_name')}")
+                print(f"Entry Timestamp\t:{i.get('entry_timestamp')}")
+                print(f"Not Before\t:{i.get('not_before')}")
+                print(f"Not After\t:{i.get('not_after')}")
+                print("\n\n")
 
-        for i in final_items:
-            print(i)
-        #for i in final_items:
+
+
     except(requests.exceptions.JSONDecodeError):
         print("Server side error with crt.sh can't get any certificates")
 
