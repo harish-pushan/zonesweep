@@ -51,7 +51,7 @@ def prease_arguments():
 
     praser.add_argument("--all", action='store_true',help="All option enable switch")
 
-    praser.add_argument("--output", action='store_true',help="Output: --output <('csv','json')>")
+    praser.add_argument("--output", action='store_true',help="Output: --output")
 
     praser.add_argument("--config", action='store_true',help="Show all the API keys switch")
     
