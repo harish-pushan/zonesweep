@@ -1,6 +1,6 @@
 #!/bin/python3
 import json 
-
+import time
 import requests
 from modules.utils import change_the_url
 
@@ -9,6 +9,7 @@ def requests_cert_from_crtsh(domain):
     domain = change_the_url(domain)
     try:
         raw_resopnse = requests.get(f'https://crt.sh/json?q={domain}')
+        time.sleep(5)
         if raw_resopnse.status_code == 502:
             print("Server side error with crt.sh can't get any certificates")
             print(raw_resopnse.json())

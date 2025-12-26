@@ -25,7 +25,8 @@ def BuiltWithInfo(url):
                 if categories:
                     new_dict = categories[0]
                     service_vendor = new_dict.get('name')
-                    print(f"Type of sevice: {name_of_service}\t\tService vendor: {service_vendor}")
+                    print(f"Type of sevice \t:{name_of_service}\nService vendor \t:{service_vendor}")
+                    print("\n")
                
 
 
