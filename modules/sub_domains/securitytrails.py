@@ -15,13 +15,13 @@ def get_subdomains_from_security_trails(url):
     try:
         api_url = f'https://api.securitytrails.com/v1/domain/{url}/subdomains?apikey={securit_trails_ap}'
         response = requests.get(api_url)
-        time.sleep(11)
+        time.sleep(4)
         # So this is returned as dictionary 
         raw_dict = response.json()
         return raw_dict["subdomains"]
         # Implement this in the final run this is future Harish's problem fuck that guy 
     except:
-        return ["Api quota ended"]
+        return ["Securitytrails api quota ended"]
         
 
 

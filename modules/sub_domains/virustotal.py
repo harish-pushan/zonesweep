@@ -16,9 +16,9 @@ def get_subdomain_form_virustotal(domain):
         domains = sorted(jdata['subdomains'])
         return domains
     except(KeyError):
-        return ["No domains found for", domains] 
+        return [f"No domains found for from virustotal: {domain}"] 
     except(requests.exceptions.JSONDecodeError):
-        return ["issue found ",response]
+        return [f"issue found: {response}"]
         
 # returns a list so i am only returing 
     # for domain in domains:
